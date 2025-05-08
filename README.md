@@ -1,7 +1,5 @@
 # Hundir_la_flota_Ana_Exposito
-Juego naval por turnos para hundir barcos
-
-El juego de Hundir la Flota consiste en un tablero donde se colocan barcos y el objetivo es "hundir" todos los barcos del oponente adivinando sus posiciones. 
+Juego naval por turnos para hundir barcos que consiste en un tablero donde se colocan barcos y el objetivo es "hundir" todos los barcos del oponente adivinando sus posiciones. 
 
 ***
 
