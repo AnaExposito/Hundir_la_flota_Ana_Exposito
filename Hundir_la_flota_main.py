@@ -1,5 +1,5 @@
-import Proyecto_hundir_la_flota_utils as utils
-import Proyecto_hundir_la_flota_variables as vr
+import Hundir_la_flota_utils as utils
+import Hundir_la_flota_variables as vr
 import time
 
 def main():
@@ -36,7 +36,7 @@ def main():
         else:
             print("\n--- Turno del rival... ---")
             time.sleep(5) 
-            fila_maquina, columna_maquina = utils.disparo_maquina(tablero_jugador_barcos, disparos_maquina)
+            fila_maquina, columna_maquina = utils.disparo_rival(tablero_jugador_barcos, disparos_maquina)
             print(f"El rival ha disparado a...: ({fila_maquina}, {columna_maquina})")
             print(tablero_jugador_disparos, tablero_jugador_barcos)
             print("Tu tablero es:")
