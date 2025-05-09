@@ -1,11 +1,11 @@
 # Hundir_la_flota_Ana_Exposito
-Juego naval por turnos para hundir barcos que consiste en un tablero donde se colocan barcos y el objetivo es "hundir" todos los barcos del oponente adivinando sus posiciones. 
+Juego naval por turnos para hundir barcos que consiste en un tablero donde se colocan barcos y el objetivo es "hundir" todos los barcos del rival adivinando sus posiciones. 
 
 ***
 
 Se crea un tablero y se definen los barcos de los jugadores.
 
-Las acciones principales son colocar barcos (aunque en esta versión ya están colocados para el jugador) y disparar a posiciones del tablero enemigo
+Las acciones principales son colocar barco y disparar a posiciones del tablero enemigo
 
  El juego se centra en gestionar el flujo de turnos contra la máquina, donde ambos jugadores intentan hundir la flota del otro adivinando sus ubicaciones.
 
@@ -30,6 +30,6 @@ Tocado: Parte de un barco ha sido alcanzada.
 
 Hundido: Todas las partes de un barco han sido alcanzadas. El jugador debe indicar qué barco ha sido hundido.
 
-Marcado: Los jugadores marcan en su tablero de "disparos" los aciertos y fallos para llevar un registro de sus ataques. En su tablero de barcos, marcan los impactos recibidos.
+Marcado: Los jugadores marcan en su tablero de "disparos" los aciertos y fallos para llevar un registro de sus ataques.
 
 Victoria: El primer jugador en hundir todos los barcos de la flota enemiga gana la partida.
